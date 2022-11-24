@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+
+
+    <h2>Personal Information</h2>  
+    <form>  
+     <fieldset>  
+        <legend>User personal information</legend>  
+
+    <div class="dataInfo" >
+        <div id="dInfor1">
+            <label>Enter your full name</label><br>  
+            <input type="text" id="fname" name="fname" required><br>  
+
+            <label>Enter your Monthly Income</label><br>  
+            <input type="number" id="income" name="income" required><br>  
+
+            <label>Enter your Age</label><br>  
+            <input type="number" id="age" name="age" required><br>  
+
+            <label>Enter your dependents number</label><br>  
+            <input type="number" id="dependents" name="dependents" required><br>  
+         </div>
+           
+
+         <div id="dInfor2">
+         <br><label>Enter your gender</label><br>  
+         <input type="radio" id="gender" name="gender" value="male"/>Male  <br>  
+         <input type="radio" id="gender" name="gender" value="female"/>Female <br/>    
+         <input type="radio" id="gender" name="gender" value="others"/>Others <br/>   
+
+         <br><label>Enter your Marital Status</label><br>  
+         <input type="radio" id="marital_status" name="marital_status" value="single"/>Single  <br>  
+         <input type="radio" id="marital_status" name="marital_status" value="married"/>Married <br/>    
+         <input type="radio" id="marital_status" name="marital_status" value="widow"/>Widow <br/> 
+         <input type="radio" id="marital_status" name="marital_status" value="divorced"/>Divorced <br/><br/>
+        </div>
+
+        <div id="dInfor3">
+            <label>Enter Rent Cost</label><br>  
+            <input type="number" id="rent" name="rent" required><br>  
+
+            <label>Enter Insurance Cost</label><br>  
+            <input type="number" id="insurance" name="insurance" required><br>  
+
+            <label>Enter Water Cost</label><br>  
+            <input type="number" id="water" name="water" required><br>  
+
+            <label>Enter Internet Cost</label><br>  
+            <input type="number" id="internet" name="internet" required><br>  
+         </div>
+
+         <div id="dInfor4">
+            <label>Enter Fuel Cost</label><br>  
+            <input type="number" id="fuel" name="fuel" required><br>  
+
+            <label>Enter Phone Cost</label><br>  
+            <input type="number" id="phone" name="phone" required><br>  
+
+            <label>Enter DSTV Cost</label><br>  
+            <input type="number" id="dstv" name="dstv" required><br>  
+
+            <label>Enter Garden Cost</label><br>  
+            <input type="number" id="garden" name="garden" required><br>  
+         </div>
+
+         <div id="dInfor5">
+            <label>Enter SewerLine Cost</label><br>  
+            <input type="number" id="sewerline" name="sewerline" required><br>  
+
+            <label>Enter Maintenance Cost</label><br>  
+            <input type="number" id="maintenance" name="maintenance" required><br>  
+         </div>
+         
+    </div>
+
+     </fieldset>  
+  </form>  
+
+<button id="input-btn">SAVE INPUT</button>
+
+    <h2 id="infoHeading"></h2>
+     <div class="personalInfo">
+            <p id="ul-el"> </p>
+            <p id="el-fname"> </p>
+            <p id="el-income"> </p>
+            <p id="el-age"> </p>
+            <p id="el-dependents"> </p>
+            <p id="el-gender"> </p>
+            <p id="el-maritalStatus"> </p>
+     </div>
+
+     <h2 id="expenseHeading"></h2>
+     <div class="personExpenses">
+         
+            <p id="el-rent"> </p>
+            <p id="el-insurance"> </p>
+            <p id="el-water"> </p>
+            <p id="el-internet"> </p>
+            <p id="el-fuel"> </p>
+            <p id="el-phone"> </p>
+            <p id="el-dstv"> </p>
+            <p id="el-garden"> </p>
+            <p id="el-sewerline"> </p>
+            <p id="el-maintenance"> </p>
+    </div>  
+       
+        <script src="index.js"></script>
+</body>
+</html>
